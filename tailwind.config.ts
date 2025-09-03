@@ -61,7 +61,29 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				/* AQI semantic colors */
+				aqi: {
+					good: 'hsl(var(--aqi-good))',
+					moderate: 'hsl(var(--aqi-moderate))',
+					'unhealthy-sensitive': 'hsl(var(--aqi-unhealthy-sensitive))',
+					unhealthy: 'hsl(var(--aqi-unhealthy))',
+					'very-unhealthy': 'hsl(var(--aqi-very-unhealthy))',
+					hazardous: 'hsl(var(--aqi-hazardous))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-background': 'var(--gradient-background)',
+				'gradient-card': 'var(--gradient-card)'
+			},
+			boxShadow: {
+				'sm': 'var(--shadow-sm)',
+				'md': 'var(--shadow-md)',
+				'lg': 'var(--shadow-lg)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
